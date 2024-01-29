@@ -1,0 +1,146 @@
+/* css/insite.css */
+
+.insite-highlight {
+    position: relative;
+    background: #F7E660;
+}
+
+.insite-highlight .insite-highlight-body {
+    font-size: 12px;
+    font-weight: 150;
+    width: 200px;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #041F30;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.insite-highlight-body .modal-header {
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 3px 2px -1px #00131f;
+    background-color: #05283D;
+    padding: 3px;
+}
+
+.insite-highlight-body .modal-header h1 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.insite-highlight-body .modal-content {
+    padding: 8px 16px 8px 16px;
+    font-size: 12px;
+    font-weight: 150;
+    color: #D8D8D8;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.insite-highlight:hover .insite-highlight-body {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Add your custom styling for dark pattern elements here */
+.dark-pattern {
+    border: 2px solid red;
+    animation: bounce 0.5s infinite alternate;
+}
+
+/* css/popup.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-header {
+    background-color: #05283D;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-header h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.modal-content {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    text-align: center;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F7E660;
+}
+
+.analyze-button {
+    background-color: #F7E660;
+    color: #05283D;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+.analyze-button:hover {
+    background-color: #D8D8D8;
+}
+
+.modal-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link {
+    color: #05283D;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+/* css/insite.css */
+
+/* ... (other styles remain unchanged) */
+
+/* css/popup.css */
+
+/* ... (other styles remain unchanged) */
+
+.modal-content {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F7E660;
+    margin-bottom: 20px;
+}

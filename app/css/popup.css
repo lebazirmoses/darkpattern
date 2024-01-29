@@ -1,0 +1,87 @@
+/* css/popup.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-header {
+    background-color: #05283D;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-header h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.modal-content {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    text-align: center;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F7E660;
+}
+
+.analyze-button {
+    background-color: #F7E660;
+    color: #05283D;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.analyze-button:hover {
+    background-color: #D8D8D8;
+}
+
+.modal-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link {
+    color: #05283D;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+/* css/insite.css */
+
+/* ... (other styles remain unchanged) */
+
+/* css/popup.css */
+
+/* ... (other styles remain unchanged) */
+
+.modal-content {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F7E660;
+    margin-bottom: 20px;
+}
